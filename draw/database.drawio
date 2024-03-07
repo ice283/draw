@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T03:30:44.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0 (Edition std-1)" etag="qAqEjFTwH9S0w5_4J2hi" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T04:37:56.792Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0 (Edition std-1)" etag="k29rKlaCwgNV2ZbTEqGz" version="24.0.2" type="github">
   <diagram name="Page-1" id="a7904f86-f2b4-8e86-fa97-74104820619b">
-    <mxGraphModel dx="4199" dy="1339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="5622" dy="2113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,7 +146,7 @@
           <mxGeometry x="720" y="160" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FBYkTZbu3xAGnKnDzRI2-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;user_horizonal_properties&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ID&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;user_id&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;horizontal_property_id&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
-          <mxGeometry x="170" y="155" width="180" height="90" as="geometry" />
+          <mxGeometry x="240" y="155" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FBYkTZbu3xAGnKnDzRI2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;" parent="1" source="FBYkTZbu3xAGnKnDzRI2-21" target="FBYkTZbu3xAGnKnDzRI2-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -252,7 +252,7 @@
         <mxCell id="z0DZv1nFkZ_xkPuDFTCv-4" value="&lt;h1 style=&quot;font-size: 25px;&quot;&gt;MÓDULOS&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;verticalAlign=middle;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="-2280" y="-825" width="380" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z0DZv1nFkZ_xkPuDFTCv-5" value="&lt;h1&gt;Finanzas administrativas&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="z0DZv1nFkZ_xkPuDFTCv-5" value="&lt;h1&gt;Finanzas administrativas&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-2280" y="-645" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z0DZv1nFkZ_xkPuDFTCv-6" value="&lt;h1&gt;Gestión de comunicaciones&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -404,9 +404,6 @@
         <mxCell id="Zi7EJfqGvHDw-pvD-nnR-27" value="&lt;h1&gt;Votaciones&lt;/h1&gt;&lt;p&gt;Este módulo se compone de varias tablas:&lt;br&gt;- Votations: es la que tiene el tiempo limite, inicio de la votación el porcentaje mínimo de aprobación para aceptar como positiva la votación y el tema a tratar. También incluye un campo de &quot;is_draft&quot; que se usará en casos donde los propietarios sugieran un tema a poner a votación para que posteriormente el administrador pueda decidir si lo pasa a votación formal o no.&lt;/p&gt;&lt;p&gt;- Votation_targets: se encarga de decidir a quién le pertenece la toma de decisión de dicha votación, si son propietarios por ejemplo o solo junta.&lt;/p&gt;&lt;p&gt;- Votation_meta_data: en caso de que haya una información adicional, como presupuesto, encargado, etc.&lt;/p&gt;&lt;p&gt;- Votes: contabiliza los votos, cuando se notificó que debe de votar, quién envió la votación y qué opción eligió.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="960" y="-680" width="285" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="Zi7EJfqGvHDw-pvD-nnR-29" value="&lt;h1&gt;Directorio de servicios&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-2280" y="115" width="380" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="Zi7EJfqGvHDw-pvD-nnR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" parent="1" source="Zi7EJfqGvHDw-pvD-nnR-30" target="Zi7EJfqGvHDw-pvD-nnR-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -538,6 +535,15 @@
         </mxCell>
         <mxCell id="_gLkAEoB4Jgge7Grs0p8-23" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;1.properties&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="2110" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_gLkAEoB4Jgge7Grs0p8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="_gLkAEoB4Jgge7Grs0p8-30" target="24794b860abc3c2d-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_gLkAEoB4Jgge7Grs0p8-30" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;user_notifications&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ID&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;horizontal_property_id&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;notification_id&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="-415" y="40" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_gLkAEoB4Jgge7Grs0p8-31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;notifications&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ID&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;type_id&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="-800" y="27.5" width="240" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
